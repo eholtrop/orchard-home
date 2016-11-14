@@ -5,8 +5,9 @@
  */
  /*main colors:
  grey?: BFB09D
- purple: 6D5B63
- green: 867E5F*/
+ purple: 75658C
+ green: 867E5F
+ dark purple: 635872*/
 html,
 body {
   height: 100%;
@@ -16,7 +17,7 @@ body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
 hr {
-  border-color: #6D5B63;
+  border-color: #75658C;
   border-width: 3px;
   max-width: 50px;
 }
@@ -237,7 +238,7 @@ header .header-content .header-content-inner p {
   color: white;
   opacity: 0;
   display: block;
-  background: rgba(240, 95, 64, 0.9);
+  background: rgba(99, 88, 114, 0.9);
   position: absolute;
   bottom: 0;
   text-align: center;
@@ -246,6 +247,10 @@ header .header-content .header-content-inner p {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
+}
+.video {
+    margin: 0 auto;
+    margin-top: 16px;
 }
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
   width: 100%;
@@ -285,7 +290,7 @@ header .header-content .header-content-inner p {
   margin: 0 auto 20px;
 }
 .text-primary {
-  color: #6D5B63;
+  color: #75658C;
 }
 .no-gutter > [class*='col-'] {
   padding-right: 0;
@@ -341,8 +346,8 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-primary {
   color: white;
-  background-color: #BFB09D;
-  border-color: #BFB09D;
+  background-color: #635872;
+  border-color: #635872;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
@@ -354,7 +359,7 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   color: white;
-  background-color: #ee4b28;
+  background-color: #BFB09D;
   border-color: #ed431f;
 }
 .btn-primary:active,
