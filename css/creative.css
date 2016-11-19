@@ -251,6 +251,7 @@ header .header-content .header-content-inner p {
 .video {
     margin: 0 auto;
     margin-top: 16px;
+    width: 80%;
 }
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
   width: 100%;
