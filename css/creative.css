@@ -248,11 +248,6 @@ header .header-content .header-content-inner p {
   -moz-transition: all 0.35s;
   transition: all 0.35s;
 }
-.video {
-    margin: 0 auto;
-    margin-top: 16px;
-    width: 80%;
-}
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
   width: 100%;
   text-align: center;
@@ -279,12 +274,32 @@ header .header-content .header-content-inner p {
 .portfolio-box:focus {
   outline: none;
 }
+.video-container {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+.video-container iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
 @media (min-width: 768px) {
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
     font-size: 16px;
   }
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
     font-size: 22px;
+  }
+  .video {
+      margin: 0 auto;
+      margin-top: 16px;
+      width: 80%;
+      height: 560px;
   }
 }
 .call-to-action h2 {
